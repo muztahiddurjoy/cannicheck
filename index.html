@@ -37,10 +37,6 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-   
- <!--@if(getcong('site_header_code'))
-    {!!stripslashes(getcong('site_header_code'))!!}
- @endif -->
 
 <style type="text/css">
   .error {
@@ -115,15 +111,15 @@
         <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
           <img src="static/site_assets/images/our_bg_one.png" class="bg-our_one" alt="">
         </div> 
-      <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 pl-5 pr-5">
-        <h2>GEAR UP YOUR BUSINESS TO SUCCEED</h2>
+      <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12 pl-5 pr-5">
+        <h2 class="text-black font-bold">GEAR UP YOUR BUSINESS TO SUCCEED</h2>
         <div class="get-logo-list-area">
           <img class="get-item-logo" src="static/site_assets/images/cannicheck_logo_3.png" alt="cannicheck_logo_3">
         </div> 
         <div class="cannabis-business">
-          <p>CannICheck delivers cannabis business profiles, scores, and ratings based on a businesses’ data and statistical indicators. The following indicators can be used to protect your business and leverage the power of your strategic decision-making. Create a business profile Today to register CannICheck and one of our agents will contact you shortly!.</p>
+          <p class="text-lg"> <span class="text-black font-bold text-2xl">CannI</span>Check delivers cannabis business profiles, scores, and ratings based on a businesses’ data and statistical indicators. The following indicators can be used to protect your business and leverage the power of your strategic decision-making. Create a business profile Today to register CannICheck and one of our agents will contact you shortly!.</p>
         </div>
-        <ul class="home-credit-nav-menu text-dark">
+        <ul class="home-credit-nav-menu text-black font-bold text-xl">
           <b><li>Credit Profiling</li>
           <li>Canni Licensing</li>
           <li>Business Background</li>
@@ -131,11 +127,9 @@
           <li>Corporate Family Affiliates</li></b>
         </ul>
         <div class="btn-search-business">
-         <!-- @if(Auth::check()) 
-          <a href="">Search a Business Profile</a>
-          @else -->
+       
           <a href="#">Run a Business Profile</a>
-          <!--@endif-->
+  
         </div>
       </div>
       <div class="col-lg-4 col-md-1 col-sm-12 col-xs-12">
@@ -146,25 +140,29 @@
     </div>
   
   <div id="madeiteasy">
-    <img src="static/site_assets/images/smart_business_bg.svg" class="w-96 absolute right-0 -bottom-32" alt="" srcset="">
-  <h1 class="text-black text-center text-3xl m-2 font-bold">We Have Made It Easy</h1>
+    <img src="static/site_assets/images/smart_business_bg.svg" style="transform: scale(1.4);" class="w-96 absolute right-20 -bottom-32" alt="" srcset="">
+  <h1 class="text-black text-center text-4xl m-2 font-bold mt-5">We Have Made It Easy!</h1>
   <div class="my-5">
     <div class="flex md:flex-row gap-4 flex-col items-center justify-center">
-      <div class="bg-gray-900 flex justify-center flex-col w-full md:w-52">
-        <p class="text-white text-center  text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 1</p>
-        <p class="text-white uppercase text-2xl mx-5 mb-3">create an account and login</p>
+      <div class="bg-gray-800 flex justify-center flex-col md:w-60 h-80">
+        <center>
+        <img src="static/site_assets/images/sheild.png" height="auto" width="150px" alt=""></center>
+        <p class="text-white text-left  text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 1</p>
+        <p class="text-white uppercase font-bold text-xl mx-5 mb-3">create an account and login</p>
       </div>
-      <div class="bg-gray-900 flex justify-center flex-col w-full md:w-52">
-        <p class="text-white text-center text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 1</p>
-        <p class="text-white uppercase text-2xl mx-5 mb-3">create an account and login</p>
+      <div class="bg-gray-800 flex justify-center flex-col md:w-60 h-80"><center>
+        <img src="static/site_assets/images/board.png" height="auto" width="150px" alt=""></center>
+        <p class="text-white text-left text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 2</p>
+        <p class="text-white uppercase font-bold text-xl mx-5 mb-3">Fill out the transaction form</p>
       </div>
-      <div class="bg-gray-900 flex justify-center flex-col w-full md:w-52">
-        <p class="text-white text-center text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 1</p>
-        <p class="text-white uppercase text-2xl mx-5 mb-3">create an account and login</p>
+      <div class="bg-gray-800 flex justify-center flex-col md:w-60 h-80"><center>
+        <img src="static/site_assets/images/clip.png" height="auto" width="130px" alt=""></center>
+        <p class="text-white text-left text-3xl uppercase mx-5 my-3" style="font-weight: 900;">step 3</p>
+        <p class="text-white uppercase font-bold text-lg mx-5 mb-3">upload your invoice and submit</p>
       </div>
     </div>
     <center>
-      <div class="btn-search-business">
+      <div class="btn-search-business px-20 mt-10">
          <a href="">View Tutorial</a>
        </div>
     </center>
@@ -172,19 +170,19 @@
   </div>
   <!-- get started -->
   <div class="get-started-area">
-    <img src="static/site_assets/images/our_bg_two.png" class="-mt-24 h-48 md:h-80 absolute w-auto" style="transform: rotate(-30deg);" alt="">
+    <img src="static/site_assets/images/our_bg_two.png" class="-mt-48 h-48 md:h-full absolute w-auto" style="transform: rotate(-30deg);" alt="">
       <div class="container-fluid">
       <div class="row">
       <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12"></div>
       <div class="col-lg-4 col-md-8 col-sm-12 col-xs-12">
         <h2>Let’s Get Started!</h2>
-        <div class="get-price-item">$49.99</div>
-        <div class="get-fee-text">Initiation Fee Waived</div>
+        <div class="get-price-item text-4xl mt-2">$49.99</div>
+        <div class="get-fee-text text-3xl">Initiation Fee Waved</div>
         <div class="get-limited-text">For A Limited Time Only</div>
         <div class="get-create-text">CREATE YOUR BUSINESS PROFILE</div>
         <div class="get-create-business-block justify-content-center">
           <div class="create-next-prev">
-            <div class="create-free-text">FREE</div>            
+            <div class="create-free-text text-5xl">FREE</div>            
           </div>
           <div class="create-btn-item"><a href="#">CREATE BUSINESS PROFILE</a></div>                    
         </div>        
@@ -199,7 +197,7 @@
       <div class="container-fluid">
       <div class="row">
       <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
-        <img class="save-25-off-item -mt-24" src="static/site_assets/images/save_25_off.png" alt="save_25_off">
+        <img class="save-25-off-item -mt-40" src="static/site_assets/images/save_25_off.png" alt="save_25_off">
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <h2 class="mb-0">BECOME A MEMBER!</h2>
@@ -212,8 +210,8 @@
         <div class="become-limited-text">Or Choose $99 Monthly</div>
         <div class="text-sky-400 text-3xl">UNLIMITED INQUIRIES</div>
         <div class="unlimited-credit-area">
-          <ul class="home-credit-nav-menu">
-            <li>Credit Profiling</li>
+          <ul class="home-credit-nav-menu ">
+            <li class="text-xl">Credit Profiling</li>
             <li>Canni Licensing</li>
             <li>Business Background</li>
             <li>Buying History</li>
@@ -231,7 +229,7 @@
          
       </div>
       <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12 align-self-end">
-        <img class="know-who-item z-50 -bottom-32 absolute" src="static/site_assets/images/know_who.png" alt="know_who">
+        <img class="know-who-item z-50 -bottom-32 absolute" style="transform: scale(1.3);" src="static/site_assets/images/know_who.png" alt="know_who">
       </div>
     </div>
       </div>
@@ -245,21 +243,19 @@
         <div class="get-logo-list-area mt-0">
            <img class="" src="static/site_assets/images/cannicheck_logo_2.png" alt="cannicheck_logo_2"> 
         </div>
-        <p><span class="text-xl font-bold">CannI</span>Check supports companies in maximizing their competitive advantages through the utilization system of data analytics to make smart, informed and responsible business decisions.</p><br>
-        <p><span class="text-xl font-bold">CannI</span>Check identifies Best Business Practices and provides accurate ratings of Business and Brokers so you can make the best purchasing decisions for your company needs.</p>
+        <p class="text-xl"><span class="text-2xl font-bold">CannI</span>Check supports companies in maximizing their competitive advantages through the utilization system of data analytics to make smart, informed and responsible business decisions.</p><br>
+        <p class="text-xl"><span class="text-2xl font-bold">CannI</span>Check identifies Best Business Practices and provides accurate ratings of Business and Brokers so you can make the best purchasing decisions for your company needs.</p>
         <div class="btn-search-business">
-         <!-- @if(Auth::check()) 
-          <a href="">SEARCH A BUSINESS</a>
-          @else -->
+      
           <a href="#">SEARCH A BUSINESS</a>
-         <!-- @endif  -->        
+
         </div>
       </div>
     </div>
       </div>
     </div>
   </section>
-  <!-- block wrapper end-->
+
 
 </div>
  

@@ -51,8 +51,8 @@ a:hover {
 	color: #d72924;
 }
 .bg-our_one{
-	height: 300px;
-	width: auto;
+	height: auto;
+	width: 500px;
 	transform: rotate(-45deg);
 	margin-top: -70px;
 }
@@ -833,8 +833,8 @@ ul.bro-address-sub-info li{
 	padding-right: 5px;
 }
 .become-member-area img.save-25-off-item{
-	max-width: 100%;
-	width: 300px;
+
+	width: 500px;
 	text-align: right;
 	float: right;
 }
@@ -902,7 +902,6 @@ ul.bro-address-sub-info li{
 	display: block;
 }
 .create-free-text{
-	font-size: 40px;
 	line-height: 40px;
 	color: #32c7f2;
 	font-weight: 800;
@@ -1030,8 +1029,8 @@ ul.home-credit-nav-menu {
 	position: relative;
 }
 ul.home-credit-nav-menu > li, ul.home-credit-nav-menu > li > a {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 800;
     display: block;
     margin: 3px 0;
     text-transform: capitalize;
